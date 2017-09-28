@@ -3,8 +3,8 @@ The **Debtor Class** depends on getting a instance of the *Client Class* injecte
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -15,8 +15,8 @@ This method returns all Debtors.
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -29,8 +29,8 @@ Returns a object for a specific Debtor.
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -52,8 +52,8 @@ Available fields to search:
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -88,8 +88,8 @@ Required `data array` elements:
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -114,8 +114,8 @@ This method lets you retrive a object containing all Quotaions for a specific De
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -128,8 +128,8 @@ This method lets you retrive all Orders for a specific Debor.
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -142,8 +142,8 @@ This method lets you retrive all Invoices for a specific Debtor.
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -156,8 +156,8 @@ This method lets you retrive all Contacts for a specific Debtor.
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -169,8 +169,8 @@ This method lets you retrive all Contacts for a specific Debtor.
 This method lets you retrive the Balance for a specific Debtor.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -182,8 +182,8 @@ This method lets you retrive the Address for a specific Debtor
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);
@@ -216,8 +216,8 @@ Optional `data array` elements:
 
 ```
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Debtor\Debtor;
+    use Economics\Client;
+    use Economics\Debtor\Debtor;
 
     $client = new Client($agreementNumber, $userID, $password);
     $debtor = new Debtor($client);

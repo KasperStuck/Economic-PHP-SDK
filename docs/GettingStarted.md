@@ -24,19 +24,16 @@ Get your access/tokens from here: https://www.e-conomic.com/developer
 
 ```php
 
-use Tkj\Economics\Client;
+use Economics\Client;
 
 
-$client = new Client($agreementNo, $userId, $password, $options=[]);
+$client = new Client($agreementNo, $userId, $password);
 ```
 
 ###### Token authentication (Recommended).
 
 ```php
-use Tkj\Economics\TokenClient;
+use Economics\TokenClient;
 
-$client = new TokenClient($token, $appToken, $appIdentifier, $options=[]);
+$client = new TokenClient($token, $appToken, $appIdentifier);
 ```
-
-###### Options
-The options parameter is passed directly to the [SoapClient](http://php.net/manual/en/soapclient.soapclient.php).

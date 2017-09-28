@@ -1,18 +1,12 @@
 {
-    "name": "tkj/economics",
+    "name": "kasperstuck/economics",
     "description": "A PHP wrapper to interact with the e-conomics API",
     "tags": ["economic", "ERP"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "t_kjaergaard",
-            "email": "tkj@tkjaergaard.dk"
-        }
-    ],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "tkj\\Economics\\": "src/tkj/Economics"
+            "Economics": "src/"
         }
     }
 }

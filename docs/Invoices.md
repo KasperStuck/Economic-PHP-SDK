@@ -2,8 +2,8 @@
 The **Invoice Class** depends on getting a instance of the *Client Class* injected in order to function.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
@@ -12,8 +12,8 @@ The **Invoice Class** depends on getting a instance of the *Client Class* inject
 This method returns all Invoices, including those who are archived.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
@@ -24,8 +24,8 @@ This method returns all Invoices, including those who are archived.
 This method lets you grap a single invoice by it's number.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
@@ -36,8 +36,8 @@ This method lets you grap a single invoice by it's number.
 This methods returns the Invoice due date.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
@@ -48,8 +48,8 @@ This methods returns the Invoice due date.
 This method lets you grap the Invoice total without VAT by the invoice number.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
@@ -64,8 +64,8 @@ This method lets you grap the Invoice total without VAT by the invoice number.
 This method return the VAT amount as a `float` for a specific Invoice.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
@@ -76,8 +76,8 @@ This method return the VAT amount as a `float` for a specific Invoice.
 This method lets you return a Invoice lines by the invoice number.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
@@ -90,8 +90,8 @@ This method return a PDF as a string.
 You can optionally set the second paramater to `true` to invoke download.
 
     <?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
@@ -108,8 +108,8 @@ This method let's you book a invoice by Invoice number or ID handle and
 returns an object containing the Book number.
 
 	<?php
-    use tkj\Economics\Client;
-    use tkj\Economics\Invoice\Invoice;
+    use Economics\Client;
+    use Economics\Invoice\Invoice;
 
     $client = new Client($agreementNumber, $userID, $password);
     $invoice = new Invoice($client);
